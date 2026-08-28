@@ -16,7 +16,38 @@ h2 {
 #services {
     color: purple;
 }
+
+#contact {
+    color: aqua;
+}
+
 body{
     text-align: center;
-    list-style: none
+    list-style: none;
+}
+  
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav ul {
+    display: flex;
+    gap:20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding:20px;
+}
+
+main section{
+    flex:1;
+    min-width: 300px;
+    border:1px  red;
+    padding :20px;
+
 }
