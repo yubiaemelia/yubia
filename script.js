@@ -1,33 +1,37 @@
-console.log("Hello, world.");
-console.log("First JavaScript");
-
-
-const myName = "Emelia";
-    myNumber = 995712345,
-    myAdress = "Brgy.Bonifacio,Cadiz City";
-    
+console.log("Hello mundo")
+const Myname = "Emelia";
+console.log("name: " + Myname);
 let age = 20;
+let number = "09661636647";
+console.log("Age: " + age)
+console.log("Number: " + number);
 
-console.log("Name: " + myName);
-console.log("Age: " + age);
-console.log("Number: " + myNumber);
-console.log("Address: " + myAdress);
+const address = "Brgy. Andres Bonifacio,Cadiz City";
+console.log("Address: " + address);
 
-//Functions
-function greet(name) { 
-    return "Good morning, ${name}";
+function greet(name) {
+
+    return `good morning, ${name}`;
+
+
 }
-console.log(greet(myName));
+console.log(greet("rene"))
 
-function mdas  (num1, num2) {
-    let m = num1 * num2;
-    let d = num1 / num2;
-    let a = num1 + num2;
-    let s = num1 - num2;
-
-    return ('values: ${num1} and ${num2}.Product ${m}, Quotient: ${d},sum: ${a}, diff: ${s}');
-    
+function mdas(a, b) {
+    let mul = a * b;
+    let div = a / b;
+    let sum = a + b;
+    let sub = a - b;
+    return (`values: ${a} and ${b}. \n product: ${mul}, \n qoutient: ${div}, \n sum: ${sum},\n difference: ${sub}`);
 }
+console.log(mdas(5, 3));
 
- console.log (mdas(6, 4));
+const heading = document.querySelector("h1");
+console.log(heading);
 
+const contact = document.querySelector(".contact");
+const services = document.querySelector(".services");
+
+console.log(heading);
+console.log(contact);
+console.log(services);
