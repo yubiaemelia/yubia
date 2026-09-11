@@ -1,7 +1,7 @@
 console.log("Hello mundo")
 const Myname = "Emelia";
 console.log("name: " + Myname);
-let age = 20;
+let age = 19;
 let number = "09661636647";
 console.log("Age: " + age)
 console.log("Number: " + number);
@@ -26,16 +26,28 @@ function mdas(a, b) {
 }
 console.log(mdas(5, 3));
 
-const heading = document.querySelector("h1");
+const heading = document.querySelector("h1")
 console.log(heading);
 
-const contact = document.querySelector(".contact");
-const services = document.querySelector(".services");
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
 
-console.log(heading);
-console.log(contact);
-console.log(services);
+const serviceHeading = document.querySelector("#services h2");
+console.log(serviceHeading);
+
+const projectHeading = document.querySelector("#projects h2");
+console.log(projectHeading);
+
+//Text Context
 
 heading.textContent = "My portfolio";
 contactHeading.textContent = "Let's Connect!";
+serviceHeading.textContent = "My Services";
 projectHeading.textContent = "My Projects";
+
+//.style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+contactHeading.style.color = "purple";
+serviceHeading.style.color = "purple";
+projectHeading.style.color = "purple";
