@@ -35,3 +35,7 @@ const services = document.querySelector(".services");
 console.log(heading);
 console.log(contact);
 console.log(services);
+
+heading.textContent = "My portfolio";
+contactHeading.textContent = "Let's Connect!";
+projectHeading.textContent = "My Projects";
