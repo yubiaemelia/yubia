@@ -25,13 +25,9 @@ function mdas  (num1, num2) {
     let a = num1 + num2;
     let s = num1 - num2;
 
-    return ('values: ${num1} and ${num2}.product $ {m}, Quotient $ {d},sum: ${a}, diff: ${s}');
+    return ('values: ${num1} and ${num2}.Product ${m}, Quotient: ${d},sum: ${a}, diff: ${s}');
     
 }
 
  console.log (mdas(6, 4));
- 
-console.log ("Add: "+add(6,4));
-console.log  ("sub: "+sub(6, 4));
-console.log ("mul: "+mul(6, 4));
-console.log ("div: "+div(6, 4));
+
