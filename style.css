@@ -33,6 +33,10 @@ padding:  20px;
 section[id="projects"]{
     background-color: orange;
 }
+
+#contact{
+    background-color: green;
+}
 form{
     display: flex;
     flex-direction: column;
